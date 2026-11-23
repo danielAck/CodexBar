@@ -1,0 +1,10 @@
+✘ Test "native cookie transport sign in rejection advances candidate" recorded an issue with 1 argument engine → .quickJS at GeminiBoundaryProofTests.swift:7:6: Caught error: ProviderFetchClassifiedError(kind: CodexBarCore.ProviderFetchClassifiedError.Kind.apiFailure, message: "Gemini app returned HTTP 302.", retryAfterSeconds: nil)
+✘ Test "native cookie transport sign in rejection advances candidate" recorded an issue with 1 argument engine → .javaScriptCore at GeminiBoundaryProofTests.swift:7:6: Caught error: ProviderFetchClassifiedError(kind: CodexBarCore.ProviderFetchClassifiedError.Kind.apiFailure, message: "Gemini app returned HTTP 302.", retryAfterSeconds: nil)
+✘ Test "native cookie transport verification keeps current candidate" recorded an issue with 1 argument engine → .quickJS at GeminiBoundaryProofTests.swift:47:9: Expectation failed: (error?.kind → .apiFailure) == .providerUnavailable
+✘ Test "native cookie transport verification keeps current candidate" recorded an issue with 1 argument engine → .quickJS at GeminiBoundaryProofTests.swift:49:9: Expectation failed: (message → "Gemini app returned HTTP 302.").contains("Google requires browser verification")
+NATIVE_PROOF verification engine=quickJS native-cookie-calls=1 requests=1 rejected=0 message=Gemini app returned HTTP 302.; synthetic/no-network
+✘ Test "native cookie transport verification keeps current candidate" recorded an issue with 1 argument engine → .javaScriptCore at GeminiBoundaryProofTests.swift:47:9: Expectation failed: (error?.kind → .apiFailure) == .providerUnavailable
+✘ Test "native cookie transport verification keeps current candidate" recorded an issue with 1 argument engine → .javaScriptCore at GeminiBoundaryProofTests.swift:49:9: Expectation failed: (message → "Gemini app returned HTTP 302.").contains("Google requires browser verification")
+NATIVE_PROOF verification engine=javaScriptCore native-cookie-calls=1 requests=1 rejected=0 message=Gemini app returned HTTP 302.; synthetic/no-network
+NATIVE_PROOF delegate cross-origin=blocked same-origin=allowed
+✘ Test run with 3 tests in 1 suite failed after 0.019 seconds with 6 issues.

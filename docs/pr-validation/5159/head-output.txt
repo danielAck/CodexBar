@@ -1,0 +1,6 @@
+NATIVE_PROOF sign-in engine=quickJS native-cookie-calls=2 requests=2 rejected=1 usage=24/2 used; synthetic/no-network
+NATIVE_PROOF sign-in engine=javaScriptCore native-cookie-calls=2 requests=2 rejected=1 usage=24/2 used; synthetic/no-network
+NATIVE_PROOF verification engine=quickJS native-cookie-calls=1 requests=1 rejected=0 message=Google requires browser verification. Open gemini.google.com/usage in your signed-in browser, then refresh.; synthetic/no-network
+NATIVE_PROOF verification engine=javaScriptCore native-cookie-calls=1 requests=1 rejected=0 message=Google requires browser verification. Open gemini.google.com/usage in your signed-in browser, then refresh.; synthetic/no-network
+NATIVE_PROOF delegate cross-origin=blocked same-origin=allowed
+✔ Test run with 3 tests in 1 suite passed after 0.033 seconds.

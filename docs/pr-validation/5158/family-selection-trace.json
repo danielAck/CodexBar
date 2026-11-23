@@ -1,0 +1,34 @@
+[
+  {
+    "at": "2026-11-23T02:19:21.110Z",
+    "stage": "initial-picker",
+    "lines": [
+      "\t\t\t\t21 text Gemini weekly 剩余 94% 5天 11小时后重置",
+      "\t\t\t\t25 text Claude/GPT weekly 剩余 16% 5天 1小时后重置",
+      "\t\t\t\t27 text 超额 56% · 预计 8小时 47分钟 后耗尽 Gemini 4 Argon weekly 剩余 88% 5天 12小时后重置",
+      "\t\t\t39 弹出式按钮 菜单栏指标, Value: Gemini weekly"
+    ]
+  },
+  {
+    "at": "2026-11-23T02:19:49.150Z",
+    "stage": "argon-picker",
+    "lines": [
+      "~\t\t\t39 弹出式按钮 菜单栏指标, Value: Gemini 4 Argon weekly"
+    ]
+  },
+  {
+    "at": "2026-11-23T02:20:38.333Z",
+    "stage": "argon-layout-preview",
+    "lines": [
+      "~\t\t\t\t142 text 实时预览 ￼ Gemini 4 Argon weekly 88% 菜单栏条带",
+      "~\t\t\t\t\t147 按钮 Description: Gemini 4 Argon weekly %, Help: 选择、拖动以重新排序，或使用移除操作。, Secondary Actions: 移除"
+    ]
+  },
+  {
+    "at": "2026-11-23T02:27:54.087Z",
+    "stage": "restored-gemini-weekly",
+    "lines": [
+      "~\t\t\t186 弹出式按钮 菜单栏指标, Value: Gemini weekly"
+    ]
+  }
+]

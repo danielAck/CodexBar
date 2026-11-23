@@ -1,0 +1,12 @@
+Runtime verification on macOS, 2026-11-22 (redacted):
+source aggregate commit: 8142e1950b5179f461d3d319ff39cb4c6f47004e
+installed bundle ID: com.steipete.codexbar
+installed version: 0.85.1 (local ad-hoc build)
+application relaunch: passed, running from /Applications/CodexBar.app
+provider configuration SHA256 before/after: equal
+quota-warning preferences before/after: equal
+reliably identified account: same (identifier omitted)
+Claude/GPT weekly remaining before/after: 15.81% / 15.81%
+fired thresholds before/after: [20, 50] / [20, 50]
+new observation after process launch: +11.94 seconds
+same family weekly warning enqueues in new-process unified log: 0
